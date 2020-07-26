@@ -1,0 +1,61 @@
+body {
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: Verdana;
+    color: white;
+    background-color: #000000;
+    background-image: url("https://fernandosaldivar.com/wp-content/uploads/2020/07/fondopared.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+   }
+
+h1, label, button, input, h2, p {
+  text-align: center;
+  font-family: 'Baloo Da 2', cursive;
+}
+
+button {
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  padding: 1px 16px;
+  text-align: center;
+}
+
+
+#contenedor{
+  width: 80%;
+  margin: 0% auto;
+}
+
+arriba{
+  width: 100%; height:200px;
+  background: rgba(0, 0, 0, 0.7)
+  float: left
+}
+
+izquierda{
+  width: 45%; height: 500px;
+  background: rgba(0, 0, 0, 0.7);
+  float: left;
+  padding-left: 5%;
+}
+
+derecha{
+  width: 45%; height: 500px;
+  background: rgba(0, 0, 0, 0.7);
+  float: right;
+  padding-left: 5%;
+}
+
+abajo{
+  width: 100%; height:50px;
+  background: rgba(0, 0, 0, 0.7);
+  float: left
+}
+
+strong{
+  color: yellow;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculo de Corrientes en Transformador</title>
+    <link rel="stylesheet" href="style2.css">
+    <script type="text/javascript"  src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@700&family=Josefin+Sans&family=Lato:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="contenedor">
+
+    <arriba>
+      <h2>Transformador Trifasico</h2>
+      <p>Calculo de corrientes en transformador trifasico</p>
+    </arriba>
+
+    <izquierda>
+      <h2>Introduce los siguientes datos: </h2>
+
+      <p class="entradas">
+      <section class="entradas">
+      <label>Capacidad del Transformador:  </label>
+      <input type="number" id="kVA" name="kVA" size="8" value="75">
+      <label> kVA</label>
+      <br>
+
+      <label>Voltaje de Linea de AT: </label>
+      <input type="number" id="vlAt" name="vlAt" size="3" value="13200">
+      <label>Volts</label>
+      <br>
+
+      <label>Voltaje de Linea de BT: </label>
+      <input type="number" id="vlBt" name="vlBt" size="3" value="220">
+      <label>Volts</label>
+      <br>
+
+      <label>Conexión de AT: </label><br>
+      <input type="radio" id="cAtD" name="cAt" checked>
+      <label for "cATD">Delta</label><br>
+      <input type="radio" id="cAtE" name="cAt" >
+      <label for "cATE">Estrella</label><br>
+      <br>
+
+      <label>Conexión de BT: </label><br>
+      <input type="radio" id="cBtD" name="cBt" size="3" checked >
+      <label for "cBTD">Delta</label><br>
+      <input type="radio" id="cBtE" name="cBt" size="3">
+      <label for "cBTE">Estrella</label><br>
+      <br>
+
+      <button onclick="calculos()" id="Submit">Calcular</button>
+      </section>
+      </p>
+    </izquierda>
+
+
+
+
+    <derecha>
+      <p class="resultados">
+          <section class="resultados">
+          <h2>Resultados</h2>
+          <label id="rConexionAT"></label><br>
+          <label id="rVlAt"></label><br>
+          <label id="rVfAt"></label><br>
+          <label id="rIlAt"></label><br>
+          <label id="rIfAt"></label><br>
+          <label id="rConexionBT"></label><br>
+          <label id="rVlBt"></label><br>
+          <label id="rVfBt"></label><br>
+          <label id="rIlBt"></label><br>
+          <label id="rIfBt"></label><br>
+          </section>
+      </p>
+    </derecha>
+
+    <abajo>
+      <p class="imgcap" class="centerimg  ">
+      <section class="imgcap">
+        <img src="https://fernandosaldivar.com/" alt="">
+      </section>
+      </p>
+    </abajo>
+
+  </div>
+
+
+  </body>
+</html>

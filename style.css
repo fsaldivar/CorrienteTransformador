@@ -1,0 +1,107 @@
+body {
+    padding-left: 11em;
+    padding-right: 11em;
+    font-family: Verdana;
+    color: white;
+    background-color: #000000;
+    background-image: url("https://fernandosaldivar.com/wp-content/uploads/2020/07/fondopared.png");
+
+   }
+
+h1, label, button, input, h2 {
+  text-align: center;
+  font-family: 'Baloo Da 2', cursive;
+}
+
+label {
+  color: #inherit;
+}
+
+input {
+  color: black;
+}
+
+
+button {
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  padding: 16px 32px;
+  text-align: center;
+}
+
+
+button#Submit {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
+
+button#Submit:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+
+p.entradas{
+  padding-left: 12em;
+
+}
+
+p.resultados{
+  padding-right: 12em;
+}
+
+section.resultados{
+  color: inherit;
+
+  text-align: justify;
+  border-style:groove;
+  background-color: #000000;
+  opacity: 0.8;
+
+  padding-left: 2em;
+  padding-bottom: 1em;
+
+}
+
+section.entradas{
+  border-style: groove;
+  text-align: justify;
+  background-color: #000000;
+  opacity: 0.8;
+  padding-top:  1em;
+  padding-left: 2em;
+}
+
+section.imgcap {
+  border-style: groove;
+  text-align: center;
+  background-color: white;
+  opacity: 0.8;
+  padding-top:  1em;
+  padding-left: 2em;
+}
+
+img {
+
+  border-radius: 4px;
+  padding: 5px;
+  width: 450px;
+}
+
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#resultados{
+  color:orange
+}
+
+#resultados1{
+  color:yellow
+}
